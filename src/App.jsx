@@ -1,5 +1,6 @@
 import React from 'react'
 import Designer from './Designer'
+import BackgroundChanger from './BackgroundChanger'
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
        <Designer channel="nukkadcode" designerObject={designer1} />
        <br />
        <Designer channel="nukkadcode" designerObject={designer2} />
+
+       <BackgroundChanger />
     </>
   )
 }

@@ -29,6 +29,8 @@ function Counter() {
          <button onClick={increaseCounter}>increase</button>
          <br />
          <button onClick={decreaseCounter}>decrease</button>
+
+         <p>Footer : {counter} </p>
       </>
     )
   }
