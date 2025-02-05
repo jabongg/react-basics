@@ -9,6 +9,7 @@
 
 body {
     font-family: Arial, sans-serif; /* Set a nice readable font */
+    background-color: #f0f0f0; /* Soft gray background */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +24,16 @@ body {
     border-radius: 8px; /* Slightly rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     width: 300px; /* Set a fixed width for the container */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2rem; /* Larger text for the counter */
+    color: #333; /* Dark text color */
+    background-color: #4caf50; /* Green background for the counter */
+    padding: 10px;
+    border-radius: 5px; /* Slight rounded corners */
+    margin-bottom: 20px; /* Space below the header */
 }
 
 /* Button styling */

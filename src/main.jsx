@@ -7,12 +7,14 @@ import Writer from './Writer.jsx'
 import Counter from './Counter.jsx'
 import Designer from './Designer.jsx';
 import BackgroundChanger from './BackgroundChanger.jsx';
+import PasswordGenerator from './PasswordGenerator.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* { <App /> } */}
     {/* <Writer /> */}
     {/* <Counter /> */}
-    <BackgroundChanger />
+    {/* <BackgroundChanger /> */}
+    <PasswordGenerator />
   </StrictMode>
 )
