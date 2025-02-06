@@ -17,6 +17,7 @@ import Contact from './components/contact/Contact.jsx';
 import Header from './components/header/Header.jsx';
 import Footer from './components/footer/Footer.jsx';
 import Github from './components/github/Github.jsx';
+import Department from './components/backend/Department.jsx';
 
 const router = createBrowserRouter([
     {
@@ -46,6 +47,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <BackgroundChanger /> */}
     {/* <PasswordGenerator /> */}
     {/* <CurrencyConverter /> */}
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <Department />
   </StrictMode>
 )
